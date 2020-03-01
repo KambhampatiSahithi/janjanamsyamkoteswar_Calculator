@@ -55,7 +55,7 @@ public class Calculatorimp implements Calculator {
         if (val == 0 && !operator.equals(op[val]))
             val = op.length;
         try {
-            return operration[val].calculate(firstnum, secondnum);
+            return operation[val].calculate(firstnum, secondnum);
         } catch (Exception e) {
             throw e;
         }
